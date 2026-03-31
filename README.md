@@ -7,7 +7,7 @@
 
 ### 1. JS 파일 준비
 
-`auto-contrast.js` 파일을 프로젝트 폴더에 복사합니다.
+[auto-contrast.js](https://github.com/ynawhocodes/auto-contrast/blob/main/auto-contrast.js) 파일을 프로젝트 폴더에 복사합니다.
 
 ### 2. HTML에 스크립트 한 줄 추가
 
