@@ -1,9 +1,7 @@
 # auto-contrast.js
 
-배경색에 따라 글자 색을 자동으로 **검정** 또는 **흰색**으로 바꿔주는 스크립트입니다.
+배경색에 따라 글자 색을 자동으로 **검정** 또는 **흰색**으로 바꿔주는 스크립트입니다.  
 `mix-blend-mode: difference` 없이, 항상 읽기 좋은 흑/백 글자색을 적용합니다.
-
----
 
 ## 사용법
 
@@ -33,8 +31,6 @@
 </div>
 ```
 
----
-
 ## 동작 방식
 
 1. `.auto-contrast` 클래스가 붙은 요소를 찾습니다.
@@ -44,25 +40,23 @@
 
 동적으로 추가되는 요소나 스타일 변경도 자동 감지합니다.
 
----
-
 ## 예시
 
 ```html
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <title>auto-contrast 예시</title>
-</head>
-<body>
-  <div style="background: #ff6600; padding: 20px;">
-    <h1 class="auto-contrast">주황색 배경 위의 텍스트</h1>
-  </div>
-  <div style="background: #003366; padding: 20px;">
-    <h1 class="auto-contrast">남색 배경 위의 텍스트</h1>
-  </div>
-  <script src="auto-contrast.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>auto-contrast 예시</title>
+  </head>
+  <body>
+    <div style="background: #ff6600; padding: 20px;">
+      <h1 class="auto-contrast">주황색 배경 위의 텍스트</h1>
+    </div>
+    <div style="background: #003366; padding: 20px;">
+      <h1 class="auto-contrast">남색 배경 위의 텍스트</h1>
+    </div>
+    <script src="auto-contrast.js"></script>
+  </body>
 </html>
 ```
